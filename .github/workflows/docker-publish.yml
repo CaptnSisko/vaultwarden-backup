@@ -17,6 +17,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment: Docker Hub
+
     if: ${{ github.event_name != 'schedule' && !contains(github.ref, '-') }}
 
     steps:
