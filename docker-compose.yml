@@ -14,7 +14,7 @@ services:
       - vaultwarden-data:/data/
 
   backup:
-    image: ttionya/vaultwarden-backup:latest
+    image: captnsisko/vaultwarden-backup:latest
     restart: always
     # environment:
     #   RCLONE_REMOTE_NAME: 'BitwardenBackup'

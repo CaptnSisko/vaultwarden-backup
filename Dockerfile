@@ -1,8 +1,8 @@
 FROM rclone/rclone:1.67.0
 
-LABEL "repository"="https://github.com/ttionya/vaultwarden-backup" \
-  "homepage"="https://github.com/ttionya/vaultwarden-backup" \
-  "maintainer"="ttionya <git@ttionya.com>"
+LABEL "repository"="https://github.com/captnsisko/vaultwarden-backup" \
+  "homepage"="https://github.com/captnsisko/vaultwarden-backup" \
+  "maintainer"="captnsisko"
 
 ARG USER_NAME="backuptool"
 ARG USER_ID="1100"

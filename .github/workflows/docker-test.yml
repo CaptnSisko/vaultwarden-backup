@@ -52,7 +52,7 @@ jobs:
           file: './tests/Dockerfile'
           build-contexts: base=docker-image://localhost:5000/base:dev
           load: true
-          tags: ttionya/vaultwarden-backup:test
+          tags: captnsisko/vaultwarden-backup:test
       -
         name: Test
         run: |
